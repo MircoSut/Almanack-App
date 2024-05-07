@@ -39,6 +39,7 @@ const MyCalendar = ({ onSelectDate }) => {
   };
 
   const handleDayClick = (date) => {
+    setSelectDate(date);
     onSelectDate(date); // Pass the selected date to the parent component
   };
 
